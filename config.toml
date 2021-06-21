@@ -1,4 +1,33 @@
-baseURL = "http://example.org/"
+baseURL = "https://chemicalxand.co/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "ChemicalXandco"
 theme = "hugo-dusk"
+copyright = "Copyright (c) 2021, all rights reserved."
+paginate = 100
+
+# Configure syntax highlight
+[markup]
+  [markup.highlight]
+    style = "rrt" # dark themes: monokai, api, fruity, native, rrt, swapoff
+
+[[menu.main]]
+  name = "Blog"
+  identifier = "blog"
+  url = "/blog/"
+
+[[menu.main]]
+  name = "About"
+  identifier = "about"
+  url = "/about/"
+
+[[menu.main]]
+  name = "Contact"
+  identifier = "contact"
+  url = "/contact/"
+
+[params.meta]
+  keywords = "blog, tech"
+  description = "Personal blog."
+
+[params]
+  github = "ChemicalXandco"

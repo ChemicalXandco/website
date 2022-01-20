@@ -42,3 +42,5 @@ Once you have the rom configured to your liking run `sudo ./flashrom -p linux_sp
 # Installing GNU/Linux
 
 Make sure the battery is plugged in and working or else it might shutdown after a minute or so. For some reason my USB storage was not being detected so I tried a different USB port and it worked. I am not sure why this is but it is something to try if anyone else has this problem. Make sure you install the `intel-ucode` (Arch) package or else it will be unstable.
+
+Follow up here: [Thinkpad X200 Usability]({{< ref "/blog/2022/thinkpad-x200-usability.md" >}}).
